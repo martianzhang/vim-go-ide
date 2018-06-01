@@ -16,9 +16,10 @@ endtry
 "------------------------------------------------------------------------------
 
 " General properties
+let g:NERDTreeShowHidden=1 " show hidden files in Nerd Tree
 let NERDTreeDirArrows=1
 let NERDTreeMinimalUI=1
-let NERDTreeIgnore=['\.o$', '\.pyc$', '\.php\~$']
+let NERDTreeIgnore=['\.o$', '\.pyc$', '\.php\~$', '\.pyo', '\.swp', '\~']
 let NERDTreeWinSize = 35
 
 " Make sure that when NT root is changed, Vim's pwd is also updated
