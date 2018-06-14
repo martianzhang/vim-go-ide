@@ -80,7 +80,8 @@ set hid
 
 " Configure backspace so it acts as it should act
 set backspace=eol,start,indent
-set whichwrap+=<,>,h,l
+"set whichwrap+=<,>,h,l
+set whichwrap+=<,>
 
 " In many terminal emulators the mouse works just fine, thus enable it.
 if has('mouse')
